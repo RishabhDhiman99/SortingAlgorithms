@@ -8,3 +8,5 @@ Collection of c++ code for implementing various sorting algorithms, such as:-
 6. Shell sort
 7. Heap sort
 8. Comb sort
+
+check out individual folders for dedicated code and some additional theory.
