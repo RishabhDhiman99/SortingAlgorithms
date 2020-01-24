@@ -1,0 +1,16 @@
+=================
+| SELECTION SORT|
+=================
+
+A Selection sort algorithm sorts an array by iterating and finding the smallest or largest one and then putting it aside into a sorted list. It continues to sort by finding the smallest or largest unsorted element and adding it to the sorted list of elements. This happens until there are no elements left in the unsorted list.
+
+------------
+Pseudo Code :-->
+------------
+
+(1.) for i = 0 to n - 1
+   (1.1) min = i
+   (1.2) for j = i + 1 to n
+          (1.2.1)  if arr[j] < arr[min] then 
+                   (1.2.1.1) min = j
+   (1.3) swap(arr[min], arr[i])
